@@ -15,7 +15,16 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 
+import numpy as np\
+A = np.array([[2, 3],\
+              [1, 2]])\
+B = np.array([8, 5])\
+X = np.linalg.solve(A, B)\
+print("Solution of the system of equations:", X)
+
 ## Output:
+![Screenshot 2025-05-14 121106](https://github.com/user-attachments/assets/155054a8-e62c-4cc8-ae13-8e2666aad5e0)
+
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
 
